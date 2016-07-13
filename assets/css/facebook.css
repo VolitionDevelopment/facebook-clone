@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    font-family: Arial, serif
+}
+
+.header{
+    width: 100%;
+    background-color: #4861AC;
+    height: 50px;
+}
+
+.navbar{
+    max-width: 900px;
+    height: 50px;
+    margin: auto;
+}
+
+.logo{
+    float: left;
+    width: 25%;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.navbar-right{
+    float: right;
+    background-color: #687aac;
+    width: 75%;
+}
+
+.navbar-right .search-bar{
+    float: left;
+    padding-left: 4px;
+}
+
+.navbar-right .search-bar input{
+    height: 25px;
+    margin-top: 15px;
+}
+
+.navbar-right .nav{
+    float: right
+}
+
+.navbar-right .nav ul{
+    float: right;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+.navbar-right .nav li{
+    float: left;
+    padding-right: 40px;
+}
+
+.sub-header{
+    width: 100%;
+    padding-top: 30px;
+    background-color: lightgray;
+    height: 100px;
+}
+
+.sub-navbar{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+}
+
+.page-title{
+    display: inline-block;
+    text-align: center;
+}
+
+.like{
+    float: right;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ads, .main, .profile{
+    padding: 10px;
+    vertical-align: top;
+}
+
+.profile{
+    width: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: -20px;
+}
+
+.wall{
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: -25px;
+}
+
+.ads{
+    width: 18%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+ul{
+    list-style-type: none;
+
+    padding: 0;
+}
+
+.main-nav{
+    overflow: hidden;
+    width: 100%;
+}
+
+.main-nav li{
+    float: left;
+    padding: 10px 20px 10px 15px;
+    background-color: #f5f5f5;
+    color: #757575;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid black;
+    transition: all 0.2s;
+}
+
+.main-nav li.active{
+    background-color: #4861AC;
+    color: white;
+}
+
+.main-nav li:hover{
+    background-color: lightgray;
+}
+
+.main-nav li.active:hover{
+    background-color: #5370c6;
+}
+
+.share{
+    width: 100%;
+    overflow: hidden;
+}
+
+.share li{
+    float: left;
+}
+
+.wall-posts{
+
+}
+
+.post{
+
+}
+
